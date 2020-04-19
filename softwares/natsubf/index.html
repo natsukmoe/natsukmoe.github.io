@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Hi! I am Natsu Kinmoe!</title>
+		<title>Natsubf Brainfuck Runner and Debugger</title>
 		<meta http-equiv="Pragma" content="no-cache" />
 		<meta http-equiv="Cache-Control" content="no-cache" />
 		<meta http-equiv="Expires" content="0" />
@@ -33,6 +33,21 @@
 		<canvas id="canv"></canvas>
 		<h1 class="title" align="center">Natsubf Brainfuck Runner and Debugger</h1>
 		<h2 class="title2" align="center">Natsubf Brainfuck运行与调试工具</h2>
+		<br>
+		<h3 class="title3" align="center">About Brainfuck</h3>
+		<p class="texts">
+			For users outside China, please read <a href="https://esolangs.org/wiki/Brainfuck">https://esolangs.org/wiki/Brainfuck</a>. This is the full document of Brainfuck.<br><br>
+			对于中国用户，Esolang不太好使，就在这里简单说明一下了。<br>
+			Brainfuck运行时会开一个大小为30000的byte数组，同时有一个指针，初始的时候指着位置0，有8种标识符：<br>
+			+ 将当前指针指向的位置加1<br>
+			- 将当前指针指向的位置减1<br>
+			< 将指针左移一格（出界会报错）<br>
+			> 将指针右移一格（出界会报错）<br>
+			, 读入一个字符，并将这个字符的<a href="https://baike.baidu.com/item/ASCII/309296">ASCII码</a>存储到当前指针指向的位置<br>
+			. 输出当前指针指向位置的<a href="https://baike.baidu.com/item/ASCII/309296">ASCII码</a>对应的字符<br>
+			[ 若当前指针指向位置的值不为0，开始循环<br>
+			] 若当前指针指向位置的值为0，则结束循环，否则回到对应的 [ 位置
+		</p>
 		<script type="text/javascript" src="../../scripts/background.js"></script>
 	</body>
 </html>
