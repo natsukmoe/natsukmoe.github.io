@@ -58,6 +58,36 @@
 			In the periodic table, some of the relative atomic mass is not an integer, like Cu is 63.6, but you will find an integer relative atomic mass in your examination paper, like 64. So I made a Student Mode to solve this problem. The result in student mode ignores most of the decimal parts.<br>
 			针对试卷上相对原子质量与元素周期表中的有误差的情况，我制作了一个“学生模式”，它省略了大部分元素相对原子质量的小数部分，以符合各大考试卷的标准。
 		</p>
+		<br>
+		<h3 class="title3" align="center">For programmers</h3>
+		<p class="texts">
+			The program contains an API. Before using the API, please copy the program and paste it in path directories (like C:\Windows\System32 in Windows and /usr/local/bin in macOS) or in the same directory as your executable file.<br><br>
+			The API includes commands below:<br><br>
+			molecular-weight-calculator -a [Name]<br>
+			Calculate the relative molecular weight of [Name].<br><br>
+			molecular-weight-calculator -at [Name]<br>
+			Calculate the relative molecular weight of [Name], and multiply it by 10 (to prevent using decimal parts).<br><br>
+			molecular-weight-calculator -s [Name]<br>
+			Calculate the relative molecular weight of [Name] in student mode.<br><br>
+			molecular-weight-calculator -st [Name]<br>
+			Calculate the relative molecular weight of [Name] in student mode, and multiply it by 10 (to prevent using decimal parts).<br><br>
+			程序包含一个API，在使用API之前，请先将本程序拷贝到一个path文件夹中（如Windows中的C:\Windows\System32和macOS中的/usr/local/bin），或者拷贝到和你的可执行文件相同的文件夹中。<br><br>
+			API包含如下命令：<br><br>
+			molecular-weight-calculator -a [Name]<br>
+			计算[Name]的相对分子质量并输出。<br><br>
+			molecular-weight-calculator -at [Name]<br>
+			计算[Name]的相对分子质量，乘10并输出（以防止出现小数部分）。<br><br>
+			molecular-weight-calculator -s [Name]<br>
+			在学生模式下计算[Name]的相对分子质量并输出。<br><br>
+			molecular-weight-calculator -st [Name]<br>
+			在学生模式下计算[Name]的相对分子质量，乘10并输出（以防止出现小数部分）。
+		</p>
+		<br>
+		<h3 class="title3" align="center"><a href="https://github.com/natsukmoe/molecular-weight-calculator" style="color:#000; text-shadow:0px 0px 2px rgba(255,10,10,1), 0px 0px 7px rgba(255,10,10,1), 0px 0px 11px rgba(246,135,235,1);">See the repo</a> and <a href="https://github.com/natsukmoe/molecular-weight-calculator/releases" style="color:#000; text-shadow:0px 0px 2px rgba(10,255,10,1), 0px 0px 7px rgba(10,255,10,1), 0px 0px 11px rgba(246,135,235,1);">download releases</a></h3>
+		<p class="texts">
+			This program supports to run in Windows and macOS. Please download the zip and extract ALL files in it to the same folder, then double click to run.<br>
+			程序有Windows版本和macOS版本，请下载对应版本后，将压缩包中所有的文件放置到一个同一个文件夹中，然后双击运行。
+		</p><br><br>
 		<script type="text/javascript" src="../../scripts/background.js"></script>
 	</body>
 </html>
